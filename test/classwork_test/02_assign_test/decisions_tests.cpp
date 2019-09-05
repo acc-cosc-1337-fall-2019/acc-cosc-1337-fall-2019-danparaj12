@@ -6,3 +6,11 @@ TEST_CASE("Verify Test Configuration", "verification") {
 	REQUIRE(true == true);
 }
 
+
+TEST_CASE("Test gross pay function")
+{
+
+	REQUIRE(gross_pay(30, 10) == 300);
+	REQUIRE(gross_pay(40, 10) == 400);
+	REQUIRE(gros_pay(50, 10) == 550);
+}
